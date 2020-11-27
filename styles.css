@@ -1,24 +1,41 @@
+/* -------------------------- GLOBAL VARIABLES ------------------------*/
+
+:root {
+    --general-background: #ebfcff;
+  }
+
 
 /* -------------------------- GENERAL STYLES --------------------------*/
 
-
+body{
+    background-color: var(--general-background);
+    font-size: large;
+}
 
 /* -------------------------- NAV BAR STYLES --------------------------*/
 
 .navbar{
     background-color: #06274d;
-    padding: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .navbar-brand{
     color: white;
     margin-left: 5%;
-    font-size: small;
+}
+@media (max-width: 400px) { 
+    .navbar-brand{
+        font-size: medium;
+    }
+}
+
+.navbar-toggler{
+    margin-right: 2%;
 }
 .navbar-toggler .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
 }
 #navbarNavDropdown{
-    font-size: small;
     background-color: #abcef7;
     margin-left: 0%;
     margin-right: 0%;
@@ -27,7 +44,7 @@
     background-color: #003e8a;
 }
 .nav-link{
-    font-size: x-small;
+    font-size: medium;
     margin-left: 5%;
     color: #1c4a80;
 }
@@ -35,8 +52,9 @@
     color: white;
 }
 .dropdown-menu{
-    background-color: #ebfcff;
+    background-color: var(--general-background);
 }
 .dropdown-item{
-    font-size: x-small;
+    font-size: small;
+    margin-left: 5%;
 }
