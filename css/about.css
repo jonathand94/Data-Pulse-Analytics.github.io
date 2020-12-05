@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+.navbar {
+  padding: 2%;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-image: linear-gradient(to right, #e84c4f, #5865ac);
+}
+.navbar .navbar-brand {
+  width: 60%;
+  margin-left: 5%;
+  padding-top: 0%;
+}
+.navbar .navbar-brand img {
+  width: 50%;
+}
+@media (max-width: 575px) {
+  .navbar .navbar-brand img {
+    width: 150px;
+  }
+}
+.navbar .navbar-toggler {
+  margin-right: 2%;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff");
+  font-size: 3vmax;
+}
+.navbar #navbarNavDropdown {
+  background-color: transparent;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.navbar .dropdown-item {
+  font-size: small;
+  margin-left: 5%;
+}
+.navbar .nav-link {
+  font-size: 2.5vmax;
+  margin-left: 10%;
+  color: white;
+}
+
+.promotional {
+  color: white;
+  padding-right: 0%;
+  padding-left: 0%;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.promotional .promotional-text {
+  width: 100%;
+  height: 100%;
+  background-color: #121327;
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+}
+.promotional .promotional-text h1 {
+  padding-bottom: 1vmax;
+  font-family: "Average Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2.5vmax;
+  color: white;
+}
+.promotional .promotional-text h1 span {
+  color: #e84c4f;
+}
+.promotional .promotional-text h1 span span {
+  font-size: 3vmax;
+}
+.promotional .promotional-text h2 {
+  font-size: 2vmax;
+}
+.promotional .promotional-text h2 span {
+  color: #abcef7;
+}
+
+#carousel-products-services {
+  width: 100%;
+  height: 100%;
+  background-color: #121327;
+}
+#carousel-products-services .carousel-control-prev-icon, #carousel-products-services .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: white;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-image: none;
+}
+#carousel-products-services .carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #e84c4f;
+}
+#carousel-products-services .carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #e84c4f;
+}
+#carousel-products-services .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+#carousel-products-services .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+#carousel-products-services .card {
+  background-color: white;
+}
+#carousel-products-services .card-img-bottom {
+  height: 40vmax;
+}
+#carousel-products-services .card-body-3, #carousel-products-services .card-body-2, #carousel-products-services .card-body-1 {
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+}
+#carousel-products-services .card-body-3 h1, #carousel-products-services .card-body-2 h1, #carousel-products-services .card-body-1 h1 {
+  font-size: 2.5vmax;
+}
+#carousel-products-services .card-body-3 h2, #carousel-products-services .card-body-2 h2, #carousel-products-services .card-body-1 h2 {
+  font-size: 2vmax;
+}
+#carousel-products-services .card-body-1 {
+  background-color: #e84c4f;
+}
+#carousel-products-services .card-body-2 {
+  background-color: #e84c4f;
+}
+#carousel-products-services .card-body-3 {
+  background-color: #e84c4f;
+}
+
+.form-registration {
+  font-size: 2vmax;
+  width: 100%;
+  height: 100%;
+  background-color: #121327;
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.form-registration h2 {
+  color: white;
+  font-size: 2vmax;
+  padding-bottom: 2vmax;
+}
+.form-registration button {
+  width: 15vmax;
+  height: 4vmax;
+  color: white;
+  background-image: linear-gradient(to right, #e84c4f, #5865ac);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.form-registration input {
+  width: 25vmax;
+  text-align: center;
+  height: 4vmax;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.footer-data-pulse {
+  background-image: linear-gradient(to right, #e84c4f, #5865ac);
+  padding-top: 1vmax;
+  padding-bottom: 1.5vmax;
+  width: 100%;
+  height: 100%;
+  background-color: #121327;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-data-pulse img {
+  width: 50%;
+}
+
+.coming_soon_container {
+  width: 100%;
+  height: 1500px;
+  background-color: #121327;
+  padding-top: 6vmax;
+  padding-bottom: 6vmax;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+}
+.coming_soon_container h1 {
+  font-size: 3.5vmax;
+}
+
+/*# sourceMappingURL=about.css.map */
