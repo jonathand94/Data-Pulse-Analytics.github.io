@@ -177,7 +177,7 @@
     font-size: $h2_font_size;
     h2{
         color: $text_color;
-        font-size: $h1_font_size;
+        font-size: $h2_font_size;
         padding-bottom: 2vmax;
     }
     button {
@@ -197,5 +197,16 @@
     }
     @include style_container(100%, 100%, $app_color_background);
     @include apply_padding_container();
+    @include center_content();
+}
+
+.footer-data-pulse{
+    background-image: $data_pulse_gradient;
+    padding-top: 1vmax;
+    padding-bottom: 1.5vmax;
+    img{
+        width: 50%;
+    }
+    @include style_container(100%, 100%, $app_color_background);
     @include center_content();
 }

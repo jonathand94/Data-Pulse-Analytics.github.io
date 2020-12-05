@@ -156,7 +156,7 @@
 }
 .form-registration h2 {
   color: white;
-  font-size: 2.5vmax;
+  font-size: 2vmax;
   padding-bottom: 2vmax;
 }
 .form-registration button {
@@ -173,6 +173,23 @@
   height: 4vmax;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+}
+
+.footer-data-pulse {
+  background-image: linear-gradient(to right, #e84c4f, #5865ac);
+  padding-top: 1vmax;
+  padding-bottom: 1.5vmax;
+  width: 100%;
+  height: 100%;
+  background-color: #121327;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-data-pulse img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
