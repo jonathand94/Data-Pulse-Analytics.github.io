@@ -179,6 +179,7 @@
 }
 
 .form-registration{
+    font-size: $h2_font_size;
     h2{
         color: $text_color;
         font-size: $h1_font_size;
@@ -188,7 +189,6 @@
         width: $sign-up-button-width;
         height: $sign-up-button-height;
         color: $text_color;
-        font-size: $h2_font_size;
         background-image: linear-gradient(to right, $red_data_pulse, $blue_data_pulse);
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
