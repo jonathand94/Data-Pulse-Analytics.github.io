@@ -187,6 +187,7 @@
         background-image: $data_pulse_gradient;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
+        border-width: 0;
     }
     input{
         width: $input-form-width;
@@ -194,6 +195,7 @@
         height: $sign-up-button-height;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
+        border-width: 0;
     }
     @include style_container(100%, 100%, $app_color_background);
     @include apply_padding_container();
