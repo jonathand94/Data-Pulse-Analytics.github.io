@@ -4,6 +4,7 @@
 $blue_data_pulse: #5865ac;
 $red_data_pulse: #e84c4f;
 $font-data-pulse: 'Average Sans', sans-serif;
+$data_pulse_gradient: linear-gradient(to right, $red_data_pulse, $blue_data_pulse);
 
 // General styling
 $app_color_background: #121327;

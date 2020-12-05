@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
-.header {
-  background-image: linear-gradient(to right, #e84c4f, #5865ac);
-}
-
 .navbar {
   padding: 2%;
   padding-left: 0%;
   padding-right: 0%;
+  background-image: linear-gradient(to right, #e84c4f, #5865ac);
 }
 .navbar .navbar-brand {
   width: 60%;
