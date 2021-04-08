@@ -1,0 +1,568 @@
+$primary-font: 'Montserrat', sans-serif;
+$text-font: 'Lato', sans-serif;
+$redcolor: #e94b4f;
+$bluecolor: #121327;
+$purplecolor: #5865ad;
+$whitecolor: #ffffff;
+$greycolor: #808080;
+
+@mixin Secction-Banner1 {
+    height: 180px;
+    background-color: $bluecolor;
+    color: $whitecolor;
+    font-family: $primary-font;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        h1{
+        font-size: 28px;
+        font-weight: 700;
+    }
+        h2{
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+@mixin Secction-Banner1Mob {
+    height: 180px;
+    background-color: $bluecolor;
+    color: $whitecolor;
+    font-family: $primary-font;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        h1{
+        font-size: 24px;
+        font-weight: 700;
+    }
+        h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+@mixin Secction-Banner2 {
+    height: 180px;
+    background-color: $bluecolor;
+    color: $whitecolor;
+    font-family: $primary-font;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+        h2{
+        font-size: 28px;
+        font-weight: 700;
+    }
+}
+@mixin Secction-Banner2Mob {
+    height: 180px;
+    background-color: $bluecolor;
+    color: $whitecolor;
+    font-family: $primary-font;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        h1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+        h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+#Data_Pulse_Navbar{
+    height: 95px;
+    font-family: $primary-font;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 10px solid;
+    border-image: 1;
+    border-image-source: linear-gradient(to right, $redcolor, $purplecolor);
+    #Data_Pulse_Header{
+        padding: 0px 35px;
+    }
+    #Data_Pulse_Logo{
+        max-width: 248px;
+        max-height: 46px;
+    }
+    #navbarNav{
+        justify-content: flex-end;
+        a{
+            padding: 0px 25px;
+            color: $bluecolor;
+        }
+        a:hover{
+            color: $redcolor;
+        }
+    }
+}
+#Banner_morethanahunch{
+    min-height: 350px;
+    background-image: url(../Sources/1x/banner_home.jpg);
+    background-position: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 28px;
+        color: $whitecolor;
+        #destacado{
+            color: #e94b4f;
+        }
+    }
+    h2{
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 20px;
+        color: $whitecolor;
+    }
+}
+#Seccion-Banner-Aboutus{
+    @include Secction-Banner2()
+}
+#Seccion-Banner-Careers{
+    @include Secction-Banner1()
+}
+#Seccion-Banner-Solutions{
+    @include Secction-Banner1();
+    br{
+        display: none;
+    }
+}
+#Seccion-Banner-Contact{
+    @include Secction-Banner2()
+}
+#Servicios{
+    margin: 50px 0px;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 364px;
+    height: 100%;
+    h1{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-family: $primary-font;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    h2{
+        margin-bottom: 50px;
+        font-family: $primary-font;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #takebetterdes, #transform{
+        color: $redcolor;
+        font-weight: 700;
+    }
+    #Serviciosgrid{
+        margin: 0px auto;
+        max-width: 1100px;
+        img{
+            max-height: 71px;
+            max-width: 71px;
+        }
+        p{
+            font-family: $primary-font;
+            font-size: 16px;
+            width: 100%;
+            display: flex;
+            margin: 0;
+            padding: 10px;
+        }
+    }
+}
+#About-Us{
+    margin: 85px 0px 50px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    #Aboutgrid{
+        margin: 0px auto;
+        max-width: 870px;
+        min-height: 500px;
+        img{
+            max-height: 71px;
+            max-width: 71px;
+            margin: 10px 20px 100px 0px;
+        }
+        h3{
+            color: $purplecolor;
+            font-size: 20px;
+            text-align: justify;
+        }
+        p{
+            font-family: $text-font;
+            font-size: 18px;
+            text-align: justify;
+            color: $greycolor;
+            width: 100%;
+            display: flex;
+            margin-bottom: 60px;
+        }
+    }
+}
+#Solutions-Sec{
+    margin: 60px 0px 0px 0px;
+    text-align: center;
+    box-sizing: border-box;
+    #Solutionsgrid{
+        margin: 0px auto;
+        max-width: 850px;
+        img{
+            max-height: 71px;
+            max-width: 71px;
+            margin: 10px 20px auto 0px;
+        }
+        h3{
+            color: $purplecolor;
+            font-size: 20px;
+            text-align: justify;
+        }
+        p{
+            font-family: $text-font;
+            font-size: 18px;
+            text-align: justify;
+            color: $greycolor;
+            width: 100%;
+            display: flex;
+            margin-bottom: 60px;
+        }
+    }
+}
+#Careers{
+    margin: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 534px;
+    img{
+        max-width: 71px;
+        max-height: 71px;
+        margin-bottom: 60px;
+    }
+    h1{
+        font-family: $primary-font;
+        color: $purplecolor;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+#Contact{
+    max-width: 1200px;
+    min-height: 534px;
+    margin: 50px auto;
+    position: relative;
+    padding: 30px;
+    .contact-form{
+        .form-field{
+            position: relative;
+            margin: 32px 0;
+        }
+        .input-text{
+            display: block;
+            width: 100%;
+            font-family: $text-font;
+            font-size: 14px;
+            color: $greycolor;
+            border-width: 0 0 2px 0;
+            border-color: $greycolor;
+            line-height: 26px;
+            font-weight: 400;
+        }
+        .input-text:focus {
+            outline: none;
+        }
+        .input-text:focus + .label,
+        .input-text.not.empty + .label{
+            transform: translateY(-30px);
+        }
+        .input-text + .label,
+        .input-text + .label{
+            transform: translateY(-15px);
+        }
+        .label{
+            position: absolute;
+            left: 20px;
+            bottom: 11px;
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: $text-font;
+            color: $greycolor;
+            cursor: text;
+            transition: transform 0.2s ease-in-out;
+        }
+        .form-check-input{
+            margin: 5px 5px 0px 0;
+        }
+        .submit-btn{
+            font-weight: 600;
+            padding: 10px 30px;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: $text-font;
+            color: $whitecolor;
+            background-color: $purplecolor;
+            border-color: $bluecolor;
+            border-radius: 0px;
+            cursor: pointer;
+        }
+        .submit-btn:hover{
+            background-color: $bluecolor;
+        }
+    }
+}
+
+#Data_Pulse_Footer{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F1F1F2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: $purplecolor;
+    font-weight: 600;
+    box-sizing: border-box;
+    img{
+        margin: 20px 0px;
+        max-height: 52px;
+        max-width: 119px;
+    }
+    p{
+        margin: 10px 0px;
+    }
+    #footertext{
+        color:$greycolor;
+        font-weight: 400;
+    }
+    #Data_Pulse_SC{
+        background-repeat: repeat;
+        background-color: $bluecolor;
+        color: $whitecolor;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+@media (min-width: 992px) {
+    #Data_Pulse_Info_Mobile{
+        display: none;
+    }
+    #Seccion-Banner-Careers{
+        br{
+            display: none;
+        }
+    }
+    #misionmobile{
+        display: none;
+    }
+    #visionmobile{
+        display: none;
+    }
+    #storagemobile{
+        display: none;
+    }
+    #predictivenmobile{
+        display: none;
+    }
+    #visualizationmobile{
+        display: none;
+    }
+    #webpagemobile{
+        display: none;
+    }
+    #webappmobile{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+
+    .nav-item{
+        background-color: $whitecolor;
+        opacity: 95%;
+        text-align: right;
+        padding-top: 5x;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #Banner_morethanahunch h1{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    #Banner_morethanahunch h2{
+        padding: 0px 50px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+    }
+    #Servicios{
+        h1{
+        margin-bottom: 20px;
+        font-size: 25px;
+        }
+        h2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: normal;
+        }
+        p{
+            padding-top: 0px;
+            padding-bottom: 0;
+            padding-right: 0;
+            padding-left: 20px;
+            font-size: 18px;
+            font-weight: normal;
+            width: 100%;
+            align-items: center;
+        }
+        #Serviciosgrid{
+            margin: 0;
+            #Servicioscont{
+                padding: 10px 0px;
+            }
+        }
+        #takebetterdes{
+            color: $redcolor;
+            font-weight: bold;
+        }
+    }
+    #Seccion-Banner-Aboutus{
+        @include Secction-Banner2Mob()
+    }
+    #Seccion-Banner-Careers{
+        @include Secction-Banner1Mob();
+    }
+    #Seccion-Banner-Solutions{
+        @include Secction-Banner1Mob();
+        h2{
+            font-size: 18px !important;
+        }
+    }
+    #Seccion-Banner-Contact{
+        @include Secction-Banner2Mob()
+    }
+    #About-Us{
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+        box-sizing: border-box;
+        #Aboutgrid{
+            margin: 0px auto;
+            width: 100%;
+            img{
+                max-height: 90px;
+                max-width: 90px;
+                margin: 10px 0px;
+            }
+            h3{
+                color: $purplecolor;
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+            }
+            p{
+                font-family: $text-font;
+                font-size: 18px;
+                text-align: center;
+                color: $greycolor;
+                width: 100%;
+                display: flex;
+                margin-bottom: 50px;
+            }
+            #mision{
+                display: none;
+            }
+            #vision{
+                display: none;
+            }
+        }
+    }
+    #Solutions-Sec{
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+        box-sizing: border-box;
+        #Solutionsgrid{
+            margin: 0px auto;
+            width: 100%;
+            img{
+                max-height: 90px;
+                max-width: 90px;
+                margin: 10px 0px;
+            }
+            h3{
+                color: $purplecolor;
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+            }
+            p{
+                font-family: $text-font;
+                font-size: 18px;
+                text-align: center;
+                color: $greycolor;
+                width: 100%;
+                display: flex;
+                margin-bottom: 50px;
+            }
+            #storage{
+                display: none;
+            }
+            #predictive{
+                display: none;
+            }
+            #visualization{
+                display: none;
+            }
+            #webpage{
+                display: none;
+            }
+            #webapp{
+                display: none;
+            }
+        }
+    }
+    #Careers{
+        justify-content: center;
+        text-align: center;
+    }
+    #Contact{
+        margin: 50px auto;
+        position: relative;
+        padding: 30px;
+        .contact-form{
+            .form-field{
+                position: relative;
+                margin: 32px 0;
+            }
+            .submit-btn{
+                display: inline-block;
+                font-weight: 600;
+                padding: 15px 45px;
+            }
+        }
+    }
+    #Data_Pulse_Info{
+        display: none;
+    }
+    #Data_Pulse_Info_Mobile{
+        text-align: center;
+        padding: 0px 20px;
+    }
+}
