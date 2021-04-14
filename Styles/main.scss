@@ -151,8 +151,6 @@ $greycolor: #808080;
     flex-direction: column;
     text-align: center;
     box-sizing: border-box;
-    min-height: 364px;
-    height: 100%;
     h1{
         margin-top: 50px;
         margin-bottom: 10px;
@@ -194,7 +192,6 @@ $greycolor: #808080;
     #Aboutgrid{
         margin: 0px auto;
         max-width: 870px;
-        min-height: 500px;
         img{
             max-height: 71px;
             max-width: 71px;
@@ -249,7 +246,7 @@ $greycolor: #808080;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    min-height: 534px;
+    min-height: 420px;
     img{
         max-width: 71px;
         max-height: 71px;
@@ -264,14 +261,14 @@ $greycolor: #808080;
 }
 #Contact{
     max-width: 1200px;
-    min-height: 534px;
-    margin: 50px auto;
+    min-height: 460px;
+    margin: 30px auto;
     position: relative;
     padding: 30px;
     .contact-form{
         .form-field{
             position: relative;
-            margin: 32px 0;
+            margin: 25px 0;
         }
         .input-text{
             display: block;
