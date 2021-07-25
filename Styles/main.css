@@ -10,8 +10,8 @@
 #Data_Pulse_Navbar #Data_Pulse_Header {
   padding: 0px 35px;
 }
-#Data_Pulse_Navbar #Data_Pulse_Logo {
-  max-width: 248px;
+#Data_Pulse_Navbar #Data_Pulse_Header #divlogo #divanchor #Data_Pulse_Logo {
+  max-width: 2489px;
   max-height: 46px;
 }
 #Data_Pulse_Navbar #navbarNav {
@@ -626,6 +626,12 @@
   #Data_Pulse_Info_Mobile {
     text-align: center;
     padding: 0px 20px;
+  }
+}
+@media (max-width: 400px) {
+  #Data_Pulse_Navbar #Data_Pulse_Header #divlogo #divanchor #Data_Pulse_Logo {
+    max-width: 148px;
+    max-height: 46px;
   }
 }
 
