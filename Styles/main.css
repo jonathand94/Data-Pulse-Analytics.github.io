@@ -10,6 +10,10 @@
 #Data_Pulse_Navbar #Data_Pulse_Header {
   padding: 0px 35px;
 }
+#Data_Pulse_Navbar #Data_Pulse_Header #divlogo #divanchor #Data_Pulse_Logo {
+  max-width: 2489px;
+  max-height: 46px;
+}
 #Data_Pulse_Navbar #Data_Pulse_Logo {
   max-width: 248px;
   max-height: 46px;
@@ -137,8 +141,6 @@
   flex-direction: column;
   text-align: center;
   box-sizing: border-box;
-  min-height: 364px;
-  height: 100%;
 }
 #Servicios h1 {
   margin-top: 50px;
@@ -182,7 +184,6 @@
 #About-Us #Aboutgrid {
   margin: 0px auto;
   max-width: 870px;
-  min-height: 500px;
 }
 #About-Us #Aboutgrid img {
   max-height: 71px;
@@ -238,7 +239,7 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  min-height: 534px;
+  min-height: 420px;
 }
 #Careers img {
   max-width: 71px;
@@ -254,14 +255,14 @@
 
 #Contact {
   max-width: 1200px;
-  min-height: 534px;
-  margin: 50px auto;
+  min-height: 460px;
+  margin: 30px auto;
   position: relative;
   padding: 30px;
 }
 #Contact .contact-form .form-field {
   position: relative;
-  margin: 32px 0;
+  margin: 25px 0;
 }
 #Contact .contact-form .input-text {
   display: block;
@@ -629,6 +630,12 @@
   #Data_Pulse_Info_Mobile {
     text-align: center;
     padding: 0px 20px;
+  }
+}
+@media (max-width: 400px) {
+  #Data_Pulse_Navbar #Data_Pulse_Header #divlogo #divanchor #Data_Pulse_Logo {
+    max-width: 148px;
+    max-height: 46px;
   }
 }
 
