@@ -53,7 +53,7 @@
       </h2>
     </section>
     <section id="Contact" class="container">
-      <div class="contact-form row">
+      <form id="contact-form" class="contact-form row" method="POST">
           <div class="form-field col-lg-6">
             <input type="text" id="fname" class="input-text" name=" ">
             <label for="fname" class="label">First Name*</label>
@@ -85,9 +85,9 @@
             </label>
           </div>
           <div class="form-field col-lg-12 d-flex justify-content-lg-end justify-content-center">
-            <input type="submit" class="submit-btn" value="Send" name="">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
           </div>
-      </div>
+        </form>
     </section>
     <footer id="Data_Pulse_Footer" class="container-fluid">
         <img src="../Sources/svg/logo_footer.svg" alt="Logo_FooteR_Data_Pulse">
