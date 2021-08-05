@@ -34,7 +34,7 @@ app.post('/', (req, res) => {
         from: 'info@datapulse.mx',
         to: req.body.email,
         subject: `More than a hunch it's data.`,
-        text: 'Thanks for contacting Data Pulse Analytics.'
+        text: 'Thanks for contacting Data Pulse Analytics S.C.'
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
