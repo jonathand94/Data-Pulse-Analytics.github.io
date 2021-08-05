@@ -22,7 +22,8 @@
     "check-node-version": "^4.1.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "nodemailer": "^6.6.3"
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

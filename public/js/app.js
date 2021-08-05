@@ -22,6 +22,7 @@ contactForm.addEventListener('submit', (e) => {
     xhr.open('POST', '/');
     xhr.setRequestHeader('content-type', 'application/json');
     xhr.onload =  function(){
+        console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
             alert('Email sent successfully! Data Pulse Analytics will contact you soon!');
             first_name.value = '',
