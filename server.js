@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const nodemailer = require('nodemailer');
+const hbs = require('nodemailer-express-handlebars');
 
 // Initialize Port
 const PORT = process.env.PORT || 5000; 
@@ -30,11 +31,17 @@ app.post('/', (req, res) => {
         }
     })
 
+    transporter.use('compile', hbs({ 
+        viewEngine: 'express-handlebars',
+        viewPath: './public/views/'
+     }));
+
     const mailOptions = {
         from: 'info@datapulse.mx',
         to: req.body.email,
         subject: `More than a hunch it's data.`,
-        text: 'Thanks for contacting Data Pulse Analytics S.C.'
+        text: 'Thanks for contacting Data Pulse Analytics S.C.',
+        // template: 'index'
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
