@@ -3,6 +3,8 @@
 *.a
 *.so
 
+.sass-cache/
+
 # Environment variables
 .env
 
