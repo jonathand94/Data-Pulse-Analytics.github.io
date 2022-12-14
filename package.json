@@ -21,7 +21,7 @@
   "dependencies": {
     "check-node-version": "^4.1.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemailer": "^6.6.3",
     "nodemailer-express-handlebars": "^4.0.0"
   },
