@@ -1,3 +1,5 @@
+// Test commit
+
 const contactForm = document.querySelector('.contact-form');
 
 let first_name = document.getElementById('fname');
